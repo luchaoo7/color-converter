@@ -1,0 +1,17 @@
+{
+  "name": "converter",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "author": "Daniel Brown",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.3",
+    "express": "^4.17.1",
+    "mocha": "^8.3.0",
+    "request": "^2.88.2"
+  }
+}
