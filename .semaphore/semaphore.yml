@@ -28,5 +28,5 @@ blocks:
       jobs:
         - name: mocha
           commands:
-            - node app/server.js
+            - node app/server.js &
             - nmp test
