@@ -29,4 +29,4 @@ blocks:
         - name: mocha
           commands:
             - node app/server.js &
-            - nmp test
+            - npm test
