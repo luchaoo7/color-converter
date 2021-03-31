@@ -1,7 +1,6 @@
 pipeline {
-    agent {
-        docker { label 'ubuntu' }
-    }
+    agent { { label 'ubuntu' } }
+
     stages {
         stage('Test') {
             steps {
