@@ -1,5 +1,5 @@
 pipeline {
-    agent {  label 'ubuntu'  }
+    agent {  label 'ubuntua'  }
 
     stages {
         stage('Test') {
