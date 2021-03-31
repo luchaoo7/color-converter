@@ -3,17 +3,17 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                pwd()
+                echo 'marca'
             }
         }
         stage('Test') { 
             steps {
-                pwd()
+                echo 'marca'
             }
         }
         stage('Deploy') { 
             steps {
-                pwd()
+                echo 'marca'
             }
         }
     }
